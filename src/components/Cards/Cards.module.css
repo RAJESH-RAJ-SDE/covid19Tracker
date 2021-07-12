@@ -1,0 +1,31 @@
+.container{
+    margin: 50px 0;
+}
+
+.Card{
+    margin: 0 2% !important;
+}
+
+.infected{
+   /* border-bottom: 10px solid rgb(0, 0, 255,0.5) ;*/
+   border-bottom: 10px solid red;
+}
+.recovered{
+   /* border-bottom: 10px solid rgb(0, 255, 0,0.5) ; */
+   border-bottom: 10px solid green;
+}
+.deaths{
+   /* border-bottom: 10px solid rgb(255, 0, 0,0.5) ; */
+   border-bottom: 10px solid black;
+   
+}
+.textColor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+@media (max-width: 770px){
+    .Card{
+        margin: 2% 0 !important;
+    }
+}
